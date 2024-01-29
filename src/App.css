@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: whitesmoke;
+}
+input {
+  background-color: lightgray;
+}
+
+.add_form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add_form > input {
+  height: 30px;
+  color: black;
+}
+
+.add_form > button {
+  height: 40px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+}
+
+.item > button {
+  font-size: 10px;
+  color: red;
+}
+
+.filter__wrapper {
+  margin: 20px;
+}
+
+#filter {
+  color: black;
+  height: 25px;
+}
